@@ -1,6 +1,5 @@
 #include <iostream>
 #include <math.h>
-#include <math.h>
 #include "triangle.h"
 
 

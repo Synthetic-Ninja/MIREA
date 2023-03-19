@@ -7,7 +7,7 @@ int main(int arcg, char *argv[])
 {
 	Triangle *triangle_mas;
 	triangle_mas = new Triangle[3];
-	int a, b, c;
+	double a, b, c;
 	for (int i = 0; i < 3; i++)
 	{
 		cout << "Введите стороны (a,b,c) через пробел для " << i + 1 << " треугольника" << endl << ": ";
