@@ -11,6 +11,7 @@ void Rational::set(int a1, int b1)
 {
 	a = a1;
 	b = b1 != 0? b1 : 1; // Заменяем знаменатель на 1, если он 0
+	if (a > b) a %= b;
 	reduce();
 }
 
