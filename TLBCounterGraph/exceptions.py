@@ -1,0 +1,3 @@
+class TlbRuntimeException(Exception):
+    pass
+
